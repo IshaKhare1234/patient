@@ -16,7 +16,9 @@ const FirstScreen: React.FC<FirstScreenInterface> = (props) => {
     <ImageBackground source={IMAGES.firstScreen} style={styles.mainView}>
       <View style={styles.container}>
         <View style={styles.swapindigator}>
-          <View style={styles.indigator1}></View>
+          <View style={styles.indigator1}>
+            
+          </View>
           <View style={styles.indigator2}></View>
         </View>
         <View style={styles.view1}>
